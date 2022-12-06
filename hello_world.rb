@@ -70,3 +70,8 @@ else
     zmienna = zmienna * 3
 end
 p zmienna # 6
+
+# ------------ lekcja 3 podpowiedzi
+
+p "rytm" == 1
+p "rytm" != 1
