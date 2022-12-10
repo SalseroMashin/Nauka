@@ -61,18 +61,57 @@ rytm = 0
   p rytm
 end
 
+#-------------------------------------
+
+p "pętla (loop) z IFem"
+rytm = 0
+# 63825125.times do
+8.times do
+  rytm = rytm + 1
+  if true
+    p rytm
+  end
+end
+
+#-------------------------------------
+
+p "pętla (loop) z IFem + ELSE"
+rytm = 0
+# 63825125.times do
+8.times do
+  rytm = rytm + 1
+  if false
+    # pusto
+  else
+    p rytm
+  end
+end
 
 #-------------------------------------
 
 p "pętla na kroki (bez 4)" # niedokończone
 rytm = 0
-24.times do
+8.times do
   rytm = rytm + 1
-  p rytm
-  # if true
-  #   p rytm
-  # end
+  if rytm == 4
+    p "PAUZA"
+  else
+    p rytm
+  end
 end
 
 
-# p 4
+#-------------------------------------
+
+p "pętla na kroki (bez 4) x 3 ósemki" # niedokończone
+rytm = 0
+24.times do
+  rytm = rytm + 1
+  if rytm == 4
+    p "PAUZA"
+  else
+    p rytm
+  end
+end
+# TODO: Dodaj pauze na ósemkach
+# TODO: Dodaj pętlenie ósemek zamiast liczenia do 24 (1..8, 1..8 zamiast 1..24)
