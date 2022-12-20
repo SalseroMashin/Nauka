@@ -89,7 +89,7 @@ end
 
 #-------------------------------------
 
-p "pętla na kroki (bez 4)" # niedokończone
+p "pętla na kroki (bez 4)"
 rytm = 0
 8.times do
   rytm = rytm + 1
@@ -100,18 +100,38 @@ rytm = 0
   end
 end
 
-
 #-------------------------------------
 
-p "pętla na kroki (bez 4) x 3 ósemki" # niedokończone
+p "pętla na kroki (bez 4 i 8)" # niedokończone
 rytm = 0
-24.times do
+8.times do
   rytm = rytm + 1
   if rytm == 4
+    p "PAUZA"
+  elsif rytm == 8
     p "PAUZA"
   else
     p rytm
   end
 end
-# TODO: Dodaj pauze na ósemkach
+
+
+#-------------------------------------
+
+p "pętla na kroki (bez 4 i 8) x 3 ósemki" # niedokończone
+rytm = 0
+3.times do
+  8.times do
+    rytm = rytm + 1
+    if rytm == 4
+      p "PAUZA"
+    elsif rytm == 8
+      p "PAUZA"
+    else
+      p rytm
+    end
+  rytm = 0 # to nie tu
+  end
+end
+
 # TODO: Dodaj pętlenie ósemek zamiast liczenia do 24 (1..8, 1..8 zamiast 1..24)
