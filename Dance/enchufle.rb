@@ -26,27 +26,34 @@ p basic_step_123
 
 p basic_step_567
 
-# enchufle1 = [
-#   "1 lewa noga do tyłu",
-#   "2 prawa noga do przodu po skosie",
-#   "3 lewa noga do przodu po skosie w lewo",
-#   "4 pauza"
-# ].concat basic_step_567
 
-# enchufle2 = "enchufle"
 
-# p enchufle2
-# p enchufle1
-
-enchufle = "enchufle"
-
-p enchufle
 
 enchufle = [
   "1 lewa noga do tyłu",
   "2 prawa noga do przodu po skosie",
   "3 lewa noga do przodu po skosie w lewo",
   "4 pauza"
-].concat basic_step_567
+]
+
+
+puts "enchufle"
 
 p enchufle
+
+enchufle = enchufle.concat basic_step_567
+p enchufle
+
+def enchufle2
+  [
+    "1 lewa noga do tyłu",
+    "2 prawa noga do przodu po skosie",
+    "3 lewa noga do przodu po skosie w lewo",
+    "4 pauza"
+  ]
+end
+
+p enchufle2
+enchufle3 = enchufle2.concat basic_step_567
+p enchufle3
+p enchufle2
