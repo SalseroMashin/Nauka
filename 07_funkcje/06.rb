@@ -5,6 +5,7 @@ poziomo = 1
   ilość_gwiazd_w_linijce.times do
     print "*"
   end
+  print "\n"
 
   if poziomo % 3 == 1
     ilość_gwiazd_w_linijce = ilość_gwiazd_w_linijce + 2
@@ -14,5 +15,4 @@ poziomo = 1
     ilość_gwiazd_w_linijce = ilość_gwiazd_w_linijce + 0
   end
   poziomo = poziomo + 1
-  print "\n"
 end

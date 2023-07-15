@@ -1,6 +1,7 @@
-def drukuj(ilość)
+# def drukuj(ilość)
   ilość_gwiazd_w_linijce = 12
-  ilość.times do
+  ilość_gwiazd_w_linijce.times do
     print "*"
   end
-end
+  print "\n"
+# end
