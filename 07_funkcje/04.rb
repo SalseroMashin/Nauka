@@ -1,3 +1,3 @@
-require_relative "03.rb"
+require_relative "03"
 
 wypisz_czwórki

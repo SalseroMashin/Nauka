@@ -1,1 +1,1 @@
-require_relative "01a.rb"
+require_relative "01a"
