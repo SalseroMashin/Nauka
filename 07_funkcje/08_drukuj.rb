@@ -5,4 +5,4 @@ def drukuj(ilość)
   print "\n"
 end
 
-# drukuj(13)
+# p drukuj(13)

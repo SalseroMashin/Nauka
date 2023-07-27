@@ -13,5 +13,6 @@ poziomo = 1
   else poziomo % 3 == 2
     gwiazdki_w_linijce = gwiazdki_w_linijce + 0
   end
+
   poziomo = poziomo + 1
 end
