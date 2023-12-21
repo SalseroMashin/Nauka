@@ -34,7 +34,7 @@ p ['a', 34, 'text', ' ', 2]
 # -------------- lekcja 2
 p "lekcja 2"
 # -------------- operatory
-p 3 + 4 # 7  
+p 3 + 4 # 7
 p 12 - 7 # 5
 p 3 * 4 # 12
 p 15 / 3 # 5
@@ -52,7 +52,7 @@ p 3 != 3 # false
 
 
 # ----- instrukcja warunkowa (ify, elsy)
-if 5 > 4 
+if 5 > 4
     p 15
 else
     p 30

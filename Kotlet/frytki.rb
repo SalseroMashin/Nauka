@@ -21,3 +21,5 @@ end
 p Frytki.new.wyrzuć
 
 p Frytki.wydaj
+
+p Frytki.new
