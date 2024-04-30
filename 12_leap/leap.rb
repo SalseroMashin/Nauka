@@ -1,9 +1,21 @@
 def przestępny (_)
   rok = _
   p rok
-  modulo_4 = rok % 4
-  if rok == 2024 || rok == 2008 || rok == 2004 || rok == 1732 || modulo_4 == 0
-    true
+  rok_podzielny_przez_4 = rok % 4 == 0
+  rpp4 = rok_podzielny_przez_4
+  rok_podzielny_przez_100 = rok % 100 == 0
+  rok_podzielny_przez_400 = rok % 400 == 0
+  if rpp4
+    if rok_podzielny_przez_100
+      false
+      if rok_podzielny_przez_400
+        true
+      else
+        false
+      end
+    else
+      true
+    end
   else
     false
   end
