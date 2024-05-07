@@ -6,7 +6,16 @@ imię = "Krzyś"
 
 # p "pomidor" == warzywo
 
+# def imię
+#   day = Time.now.day
 
+#   p day.even?
+#   if day.even?
+#     "Krzyś"
+#   else
+#     "Dawid"
+#   end
+# end
 
 if imię == "Dawid"
   p "cześć Dawid"
