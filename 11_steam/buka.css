@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(180deg, #2A475E 0%, #1B2838 80%);
+}
+
+#page {
+  /* background: linear-gradient(180deg, #2A475E 0%, #1B2838 80%); */
+  /* background: radial-gradient(farthest-corner at 40px 40px,#3D4450 0%, #23262E 80%);; */
+  min-height: 200px;
+  padding: 40px;
+}
+
+#podzakładki {
+  background: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, rgb(15, 33, 110) 100%);
+  border: none;
+  display: flex;
+  height: 35px;
+  min-height: 30px;
+}
+
+.podzakładka {
+  margin: 9px 30px;
+  color: #e5e5e5;
+}
+
+#steam img {
+  height: 49px;
+  padding-left: 205px;
+}
+
+.sekcja {
+  background-color: blue;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid blue;
+  /* border-radius: 25px; */
+  min-height: 200px;
+}
+
+#filler {
+  height: 100px;
+}
+
+#tytuł {
+  background: #171d25;
+  color: #dcdedf;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  position: fixed;
+  top: -10;
+  left: -10;
+  width: 100%;
+  height: 104px;
+  min-height: 100px;
+  font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 40% 12% 12% 12% 12% 12%;
+  grid-template-rows: 100%;
+}
+
+#element_wyszukiwany {
+  background-color: aquamarine;
+  text-align: justify;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
