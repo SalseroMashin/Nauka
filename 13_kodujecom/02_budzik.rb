@@ -4,25 +4,18 @@ class Budzik
         return nil
     end
 
+    def aktualna_godzina
+        "#{Time.now.hour}:#{Time.now.min}"
+    end
+
     def powiedz_kiedy_zadzwoni
         @godzina_alarmu
     end
-
 end
 
-def odczytaj_godzinę
-        "19:34"
-    end
+p Budzik.new.aktualna_godzina
 
-    # def ustaw_budzik_na(godzinę)
-    #     @godzina_alarmu = godzinę
-    # end
-
-
-p odczytaj_godzinę
-
-# p ustaw_budzik_na("20:30")
-# p ustaw_budzik_na("21:30")
+p Time.now
 
 def test_ustawienia_budzika
 p "--------------------------------------------------------"
@@ -59,24 +52,3 @@ end
 test_ustawienia_budzika
 
 test_ustawienia_dwóch_budzików
-
-# p Time.now
-
-# p Time.now.methods
-
-# p Time.now.asctime
-
-# p Time.now.tuesday?
-
-# p Time.now.year
-
-# p Time.now.hour
-
-# p Time.now.min
-
-# p "20:24"
-
-def aktualna_godzina
-    "#{Time.now.hour}:#{Time.now.min}"
-end
-p aktualna_godzina
