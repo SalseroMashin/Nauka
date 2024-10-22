@@ -8,6 +8,8 @@ p song[:wykonawcy]
 
 song_2 = {:tytuł => "Se Vende", :wykonawcy => "Formell, Los Van Van"}
 
+song_3 = {:tytuł => "La Madrugada", :wykonawcy =>  "Michel Maza"}
+
 # 5.times do
 #     p song
 # end
@@ -29,19 +31,42 @@ playlista.push (song)
 
 playlista.push (song_2)
 
+playlista.push (song_3)
+
 p playlista
 
 p playlista.length
 
-licznik_1 = 0
+# licznik_1 = 0
 
-while (licznik_1 < playlista.length)
-    p licznik_1
-    # p song
-    # p playlista
-    # p playlista.at(0)
-    # p playlista.at(1)
-    p playlista.at(licznik_1)
-    licznik_1 = licznik_1 + 1
-    # p licznik_1
+# # while (licznik_1 < playlista.length)
+# #     p licznik_1
+# #     # p song
+# #     # p playlista
+# #     # p playlista.at(0)
+# #     # p playlista.at(1)
+# #     p playlista.at(licznik_1)
+# #     licznik_1 = licznik_1 + 1
+# #     # p licznik_1
+# # end
+
+# licznik_2 = 0
+
+# playlista.length.times do
+#     p licznik_2
+#     p playlista.at(licznik_2)
+#     licznik_2 = licznik_2 + 1
+# end
+
+# licznik_3 = 0
+
+# playlista.each do | element |
+#     # p licznik_3
+#     # p playlista.at(licznik_3)
+#     p element
+#     # licznik_3 = licznik_3 + 1
+# end
+
+playlista.each do | element |
+    p element
 end
