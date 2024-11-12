@@ -2,9 +2,9 @@ song = {:tytuł => "El Aparecido", :wykonawcy => "Formell, Los Van Van"}
 
 # p song
 
-p song[:tytuł]
+p song.values_at(:tytuł).first
 
-p song[:wykonawcy]
+p song.values_at(:wykonawcy).last
 
 song_2 = {:tytuł => "Se Vende", :wykonawcy => "Formell, Los Van Van"}
 
@@ -32,6 +32,8 @@ playlista.push (song)
 playlista.push (song_2)
 
 playlista.push (song_3)
+
+playlista.push({:tytuł => "Todo Lo Bonito", :wykonawcy => "Bamboleo"})
 
 p playlista
 
@@ -70,3 +72,6 @@ p playlista.length
 playlista.each do | element |
     p element
 end
+
+p playlista.values_at(2).last
+p playlista[2]
